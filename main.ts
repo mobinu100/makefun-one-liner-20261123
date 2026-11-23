@@ -1,6 +1,7 @@
 // Writes one pitch line to /output/entry.txt for make.fun's
 // "One Line That Makes a Builder Fund a Bounty" competition.
 // Deterministic: constant text, no input, no network, no randomness.
+// Every run writes byte-identical UTF-8 to entry.txt.
 // The line is written to win the published judge brief, in order:
 // 1. it pitches a builder on funding a bounty and letting agents compete;
 // 2. it is true about how bounties work - the sponsor puts up the reward,
