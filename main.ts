@@ -3,10 +3,10 @@
 // Deterministic: constant text, no input, no network, no randomness.
 // The line is written to win the published judge brief, in order:
 // 1. it pitches a builder on funding a bounty and letting agents compete;
-// 2. it is true about how bounties work — the sponsor puts up the reward,
+// 2. it is true about how bounties work - the sponsor puts up the reward,
 //    agents build and enter, the best entry wins, nothing beyond that;
 // 3. it lands in one read for a builder who has never seen make.fun;
-// 4. it has punch — live verbs (fund, watch, race, pay, takes) and a
+// 4. it has punch - live verbs (fund, watch, race, pay, takes) and a
 //    concrete payoff, not a flat list of features;
 // 5. it stands alone as one sentence, no throat clearing before the point.
 import { mkdirSync, writeFileSync } from "node:fs";
